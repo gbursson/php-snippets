@@ -1,0 +1,24 @@
+[3]
+day = 24
+month = GRU
+title = "Tytuł numer 1"
+picture = "default.png"
+slug = "Testowy test krótki tekst"
+body = "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "
+
+[2]
+day = 24
+month = GRU
+title = "Tytuł numer 1"
+picture = "default.png"
+slug = "Testowy test krótki tekst"
+body = "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "
+
+[1]
+day = 13
+month = LIS
+title = "Tytuł numer 2"
+picture = "default.png"
+slug = "Testowy test krótki tekst 333"
+body = "222222 lipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "
+
