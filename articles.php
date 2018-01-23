@@ -10,7 +10,7 @@
 
 $file = parse_ini_file("articles.dat", true);
 
-foreach ($file as $key => $item) {
+foreach ($file as $sectionName => $item) {
     $day = $item["day"];
     $month = $item["month"];
     $title = $item["title"];
@@ -18,5 +18,5 @@ foreach ($file as $key => $item) {
     $slug = $item["slug"];
     $body = $item["body"];
 
-    print ("<b>Artykuł#</b> " .$key . "<br>" . $day . "<br>" . $month . "<br>" . $title . "<br>" . $picture . "<br>" . $slug . "<br>" . $body . "<br>");
+    print ("<b>Artykuł#</b> " .$sectionName . "<br>" . $day . "<br>" . $month . "<br>" . $title . "<br>" . $picture . "<br>" . $slug . "<br>" . $body . "<br>");
 }
